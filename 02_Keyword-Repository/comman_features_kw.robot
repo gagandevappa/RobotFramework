@@ -9,10 +9,7 @@ Open github URL
 
 Login to github
     [Arguments]    ${email}    ${password}
-    Input Text    ${passwod_LOC
-    
-    
-    }    ${email}
+    Input Text    ${passwod_LOC}    ${email}
     Input Password    name=password    ${password}
     Click Button    Sign in
     Wait Until Page Contains    liquibase
